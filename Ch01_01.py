@@ -11,3 +11,5 @@ df.reset_index(inplace=True)
 df.set_index("Date", inplace=True)
 df = df.drop('High',axis='columns')
 print(df.head())
+
+
